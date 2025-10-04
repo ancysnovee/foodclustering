@@ -1,0 +1,8 @@
+setup.py
+foodclustering/__init__.py
+foodclustering/core.py
+foodclustering.egg-info/PKG-INFO
+foodclustering.egg-info/SOURCES.txt
+foodclustering.egg-info/dependency_links.txt
+foodclustering.egg-info/requires.txt
+foodclustering.egg-info/top_level.txt

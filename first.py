@@ -1,4 +1,8 @@
-from foodclustering.core import FoodCluster
+from foodclustering import FoodCluster
 
-model = FoodCluster()
-print(model.check_food("banana"))
+cluster_model = FoodCluster(n_clusters=5)
+
+print(cluster_model.check_food("banana"))
+print(cluster_model.recommend_similar("banana"))
+cluster_model.plot_clusters()
+
